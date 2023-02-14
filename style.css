@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.heroSlider{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FC427B;
+    cursor: pointer;
+}
+#topNav{
+    width: auto;
+    display: none;
+}
+#topNav p{
+    font-size: 18px;
+}
+#hero{
+    width: 100vw;
+    padding: 10rem 0;
+}
+.heroName{
+    font-family: 'Sassy Frass', cursive;
+    font-size:120px;
+}
+
+#about{
+    height: 50vh;
+    width: 100vw;
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutMe{
+    top: 0;
+    left: -10rem;
+    position: absolute;
+    font-size: 180px;
+    opacity: 10%;
+    transition: transform 0.5s ease-out;
+}
+.quote{
+    font-size: 30px;
+    transform: translateY(-20px);
+}
+
+#work{
+    width: 100vw;
+    top: 0;
+}
+
+.work-cnt{
+    position: relative;
+
+}
+.workLeftCnt{
+    height: 100vh;
+    position: sticky;
+    top:0;
+}
+.hider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(8px);
+    background-color: #FC427B;
+}
+.proTitle{
+    font-size: 80px;
+}
+
+.img-cnt{
+    z-index: 1;
+    position: relative;
+    height: 150vh;
+    /* overflow-x: scroll; */
+}
+
+.img-cnt img{
+    position: absolute;   
+}
+
+.img-cnt-1{
+    top: 40rem;
+    left: 2rem;
+    z-index: 1;
+    transition: transform 0.5s ease-out;
+}
+.img-cnt-2{
+    top: 36rem;
+    right: 2rem;
+    z-index: 1;
+    transition: transform 0.5s ease-out;
+}
+.img-cnt-3{
+    bottom: -30rem;
+    left: 4rem;
+    transition: transform 0.5s ease-out;
+}
+.img-cnt-4{
+    bottom: -30rem;
+    right: 2rem;
+    transition: transform 0.5s ease-out;
+}
+  #skills{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    height: auto;
+    margin-top: 20rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .skill-text{
+    font-size: 30px;
+
+  }
+
+  .skillTextCnt{
+    margin-top: 2rem;
+    line-height: 28px;
+    position: relative;
+  }
+  .skillText{
+    top: 4rem;
+    left:60rem;
+    position: absolute;
+    font-size: 180px;
+    opacity: 10%;
+    transition: transform 0.5s ease-out;
+}
+
+#contact img{
+    margin: 2rem;
+}
+.contact-cnt{
+    padding: 10rem 0;
+    position: relative;
+}
+#contactText{
+
+    top: 14rem;
+    left: -50rem;
+    position: absolute;
+    font-size: 180px;
+    opacity: 10%;
+    transition: transform 0.5s ease-out;
+}
